@@ -1,5 +1,5 @@
 *.tlog
 *.obj
-*.idb
+*.pdb
 *.vcxproj
 *.filters
