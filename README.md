@@ -10,4 +10,4 @@ ProcessMonitor contains methods for stopping(Pause) process and start it again(R
 ProcessMonitor constructor can accept an instance of inheritor of Log class and writes messages into it.
 
 Main.cpp contains example of usage. 
-Function CrashTest creates few threads which calls different methods of ProcessMonitor instance at the same time. Function ShowMenu allows your Suspend or Resume process.
+Function CrashTest creates few threads which calls different methods of ProcessMonitor instance at the same time. Function ShowMenu allows you Suspend or Resume process.
