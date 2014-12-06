@@ -1,6 +1,5 @@
 pm
 ==
-
 Process manager - task for kodisoft internship. 
 
 ==
@@ -9,3 +8,6 @@ ProcessMonitor - class that launches and monitors win32 process. Class construct
 In case of exit or crash ProcessMonitor, it starts process with exact same arguments as it was started before.
 ProcessMonitor contains methods for stopping(Pause) process and start it again(Resume).
 ProcessMonitor constructor can accept an instance of inheritor of Log class and writes messages into it.
+
+Main.cpp contains example of usage. 
+Function CrashTest creates few threads which calls different methods of ProcessMonitor instance at the same time. Function ShowMenu allows your Suspend or Resume process.
