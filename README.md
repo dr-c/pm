@@ -11,3 +11,5 @@ ProcessMonitor constructor can accept an instance of inheritor of Log class and 
 
 Main.cpp contains example of usage. 
 Function CrashTest creates few threads which calls different methods of ProcessMonitor instance at the same time. Function ShowMenu allows you Suspend or Resume process.
+
+
